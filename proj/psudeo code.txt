@@ -1,0 +1,123 @@
+//System Libraries 
+//Input - Output Library
+//Time for rand
+//Srand to set the seed
+//File I/O NOT USED
+//Format the output NOT USED
+//Strings, not for puppets
+//everyone loves math NOT USED
+//The Standard namespace for system libraries
+
+//Function Prototypes Here
+
+//function to display winner
+//function to display loser, how sad.
+//function to display if card conditions are met
+//function to add another card to user hand
+//string to let user know if they've exceeded maximum value 21
+//function to shuffle dealer cards
+//function to shuffle user cards 
+
+//Program Execution Begins Here
+//Input File
+//Output File
+//set random number seed
+
+//variables for dealer cards
+//first dealer card variable
+//second dealer card variable
+//dealer card total variable 
+
+//first card variable for user  
+//second card variable for user 
+//user card total variable
+
+//char command for user input.
+
+//additional card variable for user hand
+
+//boolean expression for user error to display bust string
+  
+//output to user program greeting
+//lets user know name of game
+//first user input ENTER
+
+
+//input data
+//String Name
+//Character Array Name
+//Open the Input file
+//Open the Output file
+
+//call function dealer cards to be dealt
+//call function for second dealer card
+//call function user cards to be dealt
+//call function for second user card
+//call additional hand for user deck
+
+//output dealer card results
+//first card output to user
+//second card output to user
+//pause exit until user presses enter 
+
+//output to user card results
+//first card output to user
+//second card output to user
+
+//output to user total card number 
+//pause exit until user presses enter
+
+//ask user if they would like to add card to current hand
+
+//call play card function
+//ask user if they want to add another card to hand
+//lets user know if they have won or loss
+
+//output to user total card number
+
+//ask user if they want to keep current cards
+
+//output to user total card number
+
+//display if user has exceeded 21
+
+//if user card less than 21 display loser 
+
+//display winner if user card is 21 (blackjack)
+
+//Exit
+
+
+//Function Prototypes
+//function to shuffle user cards
+//highest value in blackjack is 11
+//shuffle second card 
+
+//function to shuffle dealer cards
+//highest value in blackjack is 11
+//shuffle dealer second card
+
+//function to display if user has won, cheer! 
+
+//function to display if user has lost, how sad.
+
+//add card function 
+
+//string letting user know they've exceed card limits
+
+//ask user if they want to add another card to hand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
