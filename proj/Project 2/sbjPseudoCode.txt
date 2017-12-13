@@ -1,0 +1,211 @@
+//System Libraries 
+//Input - Output Library
+//Time for rand
+//Srand to set the seed
+//File I/O 
+//Format the output 
+//Strings, not for puppets
+//everyone loves cmath
+//vector library  
+//The Standard namespace for system libraries
+
+//******************************************************************************
+//Function Prototypes Here
+//******************************************************************************
+
+//menu function 
+//function to welcome user 
+//start game function 
+//funtion to play game 
+
+//dealer hand function 
+//dealer Deck function
+//player hand function 
+
+//compute cards funtion 
+//compute dealer card function 
+//start player bet function 
+//ask player for loan function 
+
+//******************************************************************************
+//                          MAIN FUNCTION
+//******************************************************************************
+
+//Declare Variables
+//do-while loop for menu 
+//Input Data/Variables
+//call menu function 
+//user input 
+
+//Process or map the inputs to the outputs
+//switch menu asking user to start or end game
+//function to start game
+//while loop letting user end program
+//Exit the program
+
+//******************************************************************************
+//              MENU FUNCTION ASKING USER TO INPUT MENU CHOICE  
+//              SWITCH STATEMENT USED TO FOR MENU 
+//******************************************************************************
+
+//output menu choice 
+//1 to start game 
+//0 to close game
+
+//******************************************************************************
+//              START GAME FUNCTION SETTING RANDOM NUMBER SEED 
+//              SHORT DATA TYPE FOR CARD ARRAY
+//              FLOAT DATA TYPE FOR DEALER LOAN AND BET 
+//              PLAY GAME FUNCTION INITIALIZED 
+//******************************************************************************
+
+//set random number seed 
+
+//constant with short data type with 500 value for cards
+//short data type used for dealer card variable 
+//dealer card array
+
+//float data type used to hold player loan amount
+//float variable used to subtract player bet from loan 
+
+//play game function called
+
+
+//******************************************************************************
+//              FUNCTION TO COMPUTE DEALER CARDS 
+//              AND PLAYER CARDS DETERMINE WINNER         
+//              SAVE GAME STATS AND ADD OR SUBTRACT 
+//              BET FROM LOAN AMOUNT 
+//******************************************************************************
+
+//constant integer used to hold a value of twenty 
+
+//game log saving game stats
+//input game stats into game log 
+
+//open game log to record stats
+
+//integer variable used to hold user card total 
+//dealer card total 
+
+//pass dealer hand function to dealer card total 
+//pass player hand function into user card total 
+
+//call start bet function 
+
+//determine if dealer hand exceeds card limit 
+
+//determine if player hand exceeds card limit
+
+//determine if dealer won game 
+
+//determine if player won game
+
+//determine if player and dealer have tie
+
+//stop recording game stats 
+
+
+//******************************************************************************
+//                      BETTING FUNTION ASKING 
+//                      USER TO INPUT BET THEN RETURN BET AMOUNT
+//                      TO BE ADDED OR SUBTRACTED
+//******************************************************************************
+
+//ask user for bet amount 
+
+//if player bets exceeds amount owned then close program 
+
+//return loan amount with subtracted bet 
+
+
+
+//******************************************************************************
+//                  LOAN FUNCTION ASKING USER TO INPUT
+//                  AMOUNT TO BORROW RETURN LOAN AMOUNT 
+//******************************************************************************
+
+
+//ask user to loan amount 
+//while loop 
+//display error if loan amount not inside range 
+
+//if loan amount inside range square value 
+
+//IOMANIP library to create loan amount in dollar value 
+
+//return loan amount 
+
+
+
+//******************************************************************************
+//                  FUNCITON TO SHUFFLE DEALER CARDS
+//                  WITH FOR LOOP AND POINTER ARRAY AND 
+//                  RANDOM NUMBER GENERATOR 
+//******************************************************************************
+
+//for loop to pass card value into array 
+
+//return array
+
+
+//******************************************************************************
+//                  OUTPUT PROGRAM GREETING TO USER
+//                  LETS USER KNOW NAME OF GAME 
+//                  ASK USER TO PRESS ENTER TO CONTINUE
+//******************************************************************************
+
+//cin.get used to pause program until user presses enter
+
+
+//******************************************************************************
+//                      PLAYGAME FUNCTION PASSING CARD ARRAY 
+//                      AND PASS BY REFRENCE OF LOAN AMOUNT 
+//                      DO WHILE LOOP ASKING USER TO REPEAT GAME
+//******************************************************************************
+
+//user input variable 
+
+//call to welcome function 
+//call to loan function 
+
+//do while loop asking user to repeat compute game function 
+
+//call to compute function 
+
+//if yes then repeat game 
+
+//if no then exit game 
+
+//******************************************************************************
+//              DEALER HAND FUNCTION PASSING ARRAY
+//              USING FOR LOOP TO OUTPUT CARD VALUE
+//              RETURN DEALER TOTAL CARD VALUE 
+//******************************************************************************
+
+
+//constant short with value of 500 for player cards 
+//dealer card array 
+
+//for loop to pass card value into array 
+
+//add dealer cards together 
+
+//return value of dealer hand 
+
+//******************************************************************************
+//                   PLAYER CARD FUNCTION USING VECTOR ARRAY 
+//                   TO HOLD DEALER CARDS OUTPUT THROUGH 
+//                   PLAYER HAND WITH LOOP AND RETURN CARD VALUE 
+//******************************************************************************
+
+//vector holding player cards 
+//vector holding card sum 
+//for loop passing vector in to hold card value 
+//do while loop for player hand
+//deal player cards 
+//return card value
+//if card value less then limit ask user for another card 
+//add card value together 
+//ask user for another card 
+//return final card value
